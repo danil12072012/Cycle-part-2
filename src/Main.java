@@ -5,7 +5,7 @@ public class Main {
         int salary = 15000;
         int total = 0;
         int i = 0;
-        while (total < 2_459_000) {
+        while (total <= 2_459_000) {
             i++;
             total = total + total/100*12;
             total = total + salary;
